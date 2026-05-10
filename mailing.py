@@ -46,7 +46,7 @@ class AppointmentUI(QMainWindow):
         try:
             msg = EmailMessage()
             msg["Subject"] = subject
-            msg["From"] = "ahmedzewail712@gmail.com"
+            msg["From"] = "your_email@gmail.com"
             msg["To"] = to_email
             msg.set_content(message)
 
