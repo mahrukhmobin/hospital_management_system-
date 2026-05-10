@@ -51,7 +51,7 @@ class AppointmentUI(QMainWindow):
             msg.set_content(message)
 
             with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-                smtp.login("ahmedzewail712@gmail.com", "olwc lmzg nhbl qxku")
+                smtp.login("your_email@gmail.com", "your_app_password")
                 smtp.send_message(msg)
                 print("Email sent successfully")
         except Exception as e:
