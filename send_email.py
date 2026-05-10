@@ -34,8 +34,8 @@ class AppointmentUI(QMainWindow):
         self.send_email(to_email, subject, message)
 
     def send_email(self, to_email, subject, message):
-        sender_email = "mahnoorbalochxx@outlook.com"
-        sender_password = "punjabian58"
+        sender_email = "YOUR_EMAIL"
+        sender_password = "YOUR_PASSWORD"
 
         msg = MIMEMultipart()
         msg["From"] = sender_email
