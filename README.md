@@ -76,6 +76,12 @@ hospital-management-system/
 
 ---
 
+## Note
+
+This repository contains the Python source files only. The `.ui` files (PyQt6 designer files) and image assets are not included as they were part of a collaborative project.
+
+---
+
 ## How to Run
 
 ```bash
